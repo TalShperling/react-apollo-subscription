@@ -7,7 +7,7 @@ import { ApolloProvider } from '@apollo/client';
 import Messages from './components/Messages'; 
 
 const httpLink = new HttpLink({
-  uri: 'http://localhost:3000/'
+  uri: 'http://localhost:5000/graphql'
 });
 
 const wsLink = new WebSocketLink({
